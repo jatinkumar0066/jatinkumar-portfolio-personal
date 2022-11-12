@@ -1,0 +1,80 @@
+@media screen and (max-width: 991px) {
+  .about-section .skill .row {
+    grid-template-columns: 100%;
+    grid-auto-rows: 8rem;
+  }
+
+  .portfolio-section .portfolio-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-section .w-50,
+  .contact-section .contact-item,
+  .portfolio-popup .description,
+  .portfolio-popup .info,
+  .portfolio-section .portfolio-item,
+  .about-section .about-img,
+  .about-section .about-info,
+  .home-section .home-text,
+  .home-section .home-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .home-section .home-text {
+    order: 2;
+  }
+
+  .home-section .home-text,
+  .contact-section .submit-btn {
+    text-align: center;
+  }
+
+  .home-section .full-screen {
+    padding: 10rem 0;
+  }
+
+  .home-section .home-img .img-box {
+    margin-bottom: 4rem;
+    max-width: 35rem;
+  }
+
+  .effect-3 {
+    margin-left: -6rem;
+  }
+
+  .effect-4 {
+    left: 15%;
+  }
+
+  .effect-5 {
+    right: 4%;
+  }
+
+  .about-section .about-img {
+    padding: 3rem;
+  }
+
+  .about-section .timeline .timeline-item:nth-child(odd) {
+    padding-right: 1.5rem;
+    text-align: left;
+  }
+
+  .about-section .timeline .timeline-item:nth-child(even) {
+    padding-left: 1.5rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .home-section .home-img .img-box {
+    max-width: 26rem;
+  }
+
+  .home-section .home-text h2 {
+    font-size: 4rem;
+  }
+}
